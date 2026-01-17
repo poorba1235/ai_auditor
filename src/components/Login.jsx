@@ -60,6 +60,7 @@ const Login = ({ onLogin }) => {
         </form>
         
         <div className="mt-6 text-center text-sm text-gray">
+          <p>Login using below details</p> <br/>
          <p>admin@company.com -admin , user@company.com - user </p>
         </div>
       </div>
