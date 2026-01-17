@@ -60,19 +60,7 @@ const Login = ({ onLogin }) => {
         </form>
         
         <div className="mt-6 text-center text-sm text-gray">
-          <p>Access is controlled via email allowlist.</p>
-          <p>If you don't have access, please contact your administrator.</p>
-          <p className="mt-2">
-            Payments are handled externally via{' '}
-            <a 
-              href="https://gumroad.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ color: '#2563eb', textDecoration: 'underline' }}
-            >
-              Gumroad
-            </a>
-          </p>
+         
         </div>
       </div>
     </div>
