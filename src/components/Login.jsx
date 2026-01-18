@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
-import { 
-  Shield, 
-  Mail, 
-  Lock, 
-  ArrowRight, 
-  CheckCircle, 
+import {
   AlertCircle,
-  Sparkles,
-  Users,
-  Zap,
+  ArrowRight,
+  CheckCircle,
   Loader2,
-  Cross,
-  Redo
+  Mail,
+  Redo,
+  Shield,
+  Users,
+  Zap
 } from 'lucide-react';
+import { useState } from 'react';
 
 const Login = ({ onLogin }) => {
   const [email, setEmail] = useState('');
@@ -120,18 +117,12 @@ const demoLogin = (demoEmail) => {
   <div className="relative">
     <div className="flex items-center justify-between mb-2">
       <div>
-        <h2 className="text-3xl font-bold text-white mb-2">
-          Welcome Back
-        </h2>
-        <p className="text-primary-100 text-lg">
+      
+        <h3 className="text-primary-100 text-lg">
           Sign in to your Audit AI dashboard
-        </p>
+        </h3>
       </div>
-      <div className="hidden sm:block">
-        <div className="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full">
-          <span className="text-sm font-semibold text-white">v2.0</span>
-        </div>
-      </div>
+      
     </div>
     
     <div className="flex items-center text-sm text-primary-200 mt-4">
