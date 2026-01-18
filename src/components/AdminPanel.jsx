@@ -108,7 +108,7 @@ const AdminPanel = ({ users = [] }) => {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
+    <div className="bg-white rounded-2xl shadow-lg border -mt-20 border-gray-200 p-8">
       {/* Header */}
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-10">
         <div>
@@ -409,7 +409,7 @@ const AdminPanel = ({ users = [] }) => {
         )}
       </div>
 
-  
+      {/* Footer Note */}
     
     </div>
   );
